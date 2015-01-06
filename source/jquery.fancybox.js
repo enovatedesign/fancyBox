@@ -855,8 +855,9 @@
 				return;
 			}
 
-			type = coming.type;
-			href = coming.href;
+			type    = coming.type;
+			href    = coming.href;
+            		F.group = coming.group;
 
 			if (!type) {
 				F.coming = null;
